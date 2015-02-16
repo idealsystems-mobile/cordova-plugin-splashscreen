@@ -28,7 +28,7 @@ var cordova = require('cordova'),
 var isPhone = (cordova.platformId == "windows") && WinJS.Utilities.isPhone;
 var localSplash = null; 
 var bgColor = "#464646"; // default backgrond color; TDOO - read it from .appxmanifest
-var splashImageSrc = isPhone ? "ms-appx:///images/splashscreenphone.png" : "ms-appx:///images/splashscreen.png";
+var splashImageSrc = isPhone ? "ms-appx:///images/SplashScreen.scale-240.jpg" : "ms-appx:///images/splashscreen.png";
 
 var SplashScreen = {
     setBGColor: function (cssBGColor) {
